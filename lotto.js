@@ -18,8 +18,8 @@ function lotto(lucky) {
 
   return lucky.sort((a, b) => a - b)
 }
-console.log(lotto([]))
-console.log(lotto([]))
-console.log(lotto([]))
-console.log(lotto([]))
-console.log(lotto([]))
+document.querySelector('.one').textContent = `1 set ${lotto([])}`
+document.querySelector('.two').textContent = `2 set ${lotto([])}`
+document.querySelector('.three').textContent = `3 set ${lotto([])}`
+document.querySelector('.four').textContent = `4 set ${lotto([])}`
+document.querySelector('.five').textContent = `5 set ${lotto([])}`
